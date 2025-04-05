@@ -1,0 +1,16 @@
+
+<div class="container">
+  <div class="padding-btm-top">
+    <h1>Create a new task! </h1>
+  </div>
+  <%= form_with model: @task do |f| %>
+    <%= f.label :title %>
+    <%= f.text_field :title %>
+    <%= f.label :details %>
+    <%= f.text_field :details %>
+    <%= f.submit %>
+  <% end %>
+  <div class="padding-btm-top"></div>
+    <%= link_to 'Back to list', tasks_path, class: "btn btn-outline-primary" %>
+  </div>
+</div>

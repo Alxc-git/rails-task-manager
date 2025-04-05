@@ -1,0 +1,9 @@
+
+<div class="container">
+  <h1><%= @task.title %></h1>
+
+  <p>Details: <%= @task.details %></p>
+
+  <%= link_to 'Back to list', tasks_path, class: "btn btn-outline-primary" %>
+  <%= link_to 'Edit this task', edit_task_path, class: "btn btn-outline-warning"%>
+</div>

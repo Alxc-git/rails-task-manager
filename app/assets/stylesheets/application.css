@@ -13,3 +13,13 @@
  *= require_tree .
  *= require_self
  */
+
+ .container {
+  padding-left: 30px;
+  padding-top: 5%;
+ }
+
+ .padding-btm-top {
+  padding-bottom: 8px;
+  padding-top: 8px;
+}
